@@ -7,7 +7,11 @@
             "label": "Copy cached surveys",
             "type": "shell",
             "command": "cp ~/surveys/* .",
-            "problemMatcher": []
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "Delete surveys",
